@@ -108,6 +108,11 @@ section, header {
             text-decoration: none;
         }
 
+            .menu__link:hover {
+                color: #666d89;
+                text-decoration: underline;
+            }
+
         .menu__link_red {
             color: #f06c64;
         }
@@ -128,6 +133,16 @@ section, header {
         cursor: pointer;
         margin-bottom: 12px;
     }
+
+        .chev:hover {
+            width: 24px;
+            height: 40.5px;
+            
+        }
+
+            .chev_left:hover {
+                margin-right: 46px;
+            }
 
     
 
