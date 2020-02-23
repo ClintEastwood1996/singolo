@@ -1,1 +1,1 @@
-https://clinteastwood1996.github.io/singolo/
+https://clinteastwood1996.github.io/singolo/singolo1
