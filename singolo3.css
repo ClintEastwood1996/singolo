@@ -141,4 +141,34 @@ body {
     .get-a-quote__underline {
         background-color: #e9676b;
     }
-    
+
+
+        /* footer */
+
+.footer {
+    background-color: #2d2f39;
+    display: flex;
+    height: 40px;
+    padding: 18px 40px;
+    justify-content: space-between;
+}
+
+    .copyright {
+        color: #636D8B;
+        font-size: 12px;
+    }
+
+    .socials {
+        padding-top: 4px;
+        
+    }
+
+        .socials__item {
+            margin-right: 4px;
+            border-radius: 50%;
+        }
+
+        .socials__item:hover {
+            cursor: pointer;
+            background-color: #fff;
+        }
