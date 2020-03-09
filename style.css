@@ -29,14 +29,13 @@ body {
 }
 
 h2, h3 {
-    color: #666d89;
     font-family: lato-black;
     margin: 0;
 }
 
-p {
-    color: #767e9e;
+p, ul {
     margin: 0;
+    padding: 0;
 }
 
 section, header {
@@ -178,6 +177,7 @@ section, header {
     background-color: #f2f2f2;
     padding: 59px 39px 0 39px;
     box-sizing: border-box;
+    color: #767e9e;
 }
 
     .our-services-top {
@@ -265,7 +265,7 @@ section, header {
     padding: 60px 40px 0px 40px;
     background-color: #2d303a;
     height: 810px;
-
+    color: #767e9e;
 }
 
 
@@ -336,6 +336,7 @@ section, header {
     height: 615px;
     background-color: #f2f2f2;
     padding: 60px 40px;
+    color: #767e9e;
 }
 
     .persons {
@@ -472,6 +473,7 @@ section, header {
 
         .contact-info__contact {
             margin-bottom: -5px;
+            margin-top: 12px;
         }
 
         .contact-info__contact a {
@@ -501,6 +503,7 @@ section, header {
     .copyright {
         color: #636D8B;
         font-size: 12px;
+        margin: 12px 0;
     }
 
     .socials {
