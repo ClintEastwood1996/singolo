@@ -1,0 +1,29 @@
+
+
+
+/* 769 - 1020 px */
+@media screen and (max-width: 650px) {
+    /* header */
+
+
+    
+
+    
+    .header__wrapper {
+        justify-content: flex-start;
+    }
+
+        .burger-menu {
+            display: flex;
+        }
+
+        .logo {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .menu__item {
+            display: none;
+        }
+}
+

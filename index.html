@@ -4,44 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Singolo</title>
 </head>
 <body>
 
     <header class="header">
-        <h1 class="logo">
-            <span class="logo__text">SINGOLO</span>
-            <span class="logo__symbol">*</span>
-        </h1>
-
-        <ul class="menu">
-            <li class="menu__item">
-                <a href="#" class="menu__link menu__link_red">HOME</a>
-            </li>
-            <li class="menu__item">
-                <a href="#" class="menu__link">SERVICES</a>
-            </li>
-            <li class="menu__item">
-                <a href="#" class="menu__link">PORTFOLIO</a>
-            </li>
-            <li class="menu__item">
-                <a href="#" class="menu__link">ABOUT</a>
-            </li>
-            <li class="menu__item">
-                <a href="#" class="menu__link">CONTACT</a>
-            </li>
-        </ul>
-
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="burger-menu">
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                </div>
+                <h1 class="logo">
+                    <span class="logo__text">SINGOLO</span>
+                    <span class="logo__symbol">*</span>
+                </h1>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link menu__link_red">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">SERVICES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">PORTFOLIO</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">ABOUT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">CONTACT</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
         <div class="underline header__underline"></div>
     </header>
 
     <section class="slider">
-        <img src="assets/img/slider/chev-left.png" alt="left" class="chev_left chev">
-        <img src="assets/img/slider/iphone-vertical.png" alt="iPhone" class="iphone iphone_left">
-        <img src="assets/img/slider/iphone-horizontal.png" alt="iPhone" class="iphone iphone_right">
-        <img src="assets/img/slider/chev-right.png" alt="right" class="chev_right chev">
-        <div class="underline slider__underline"></div>
+        <div class="container">
+            <div class="slider__wrapper">
+                <img src="assets/img/slider/chev-left.png" alt="left" class="chev_left chev">
+                <img src="assets/img/slider/iphone-vertical.png" alt="iPhone" class="iphone iphone_left">
+                <img src="assets/img/slider/iphone-horizontal.png" alt="iPhone" class="iphone iphone_right">
+                <img src="assets/img/slider/chev-right.png" alt="right" class="chev_right chev">
+                <div class="underline slider__underline"></div>
+            </div>
+        </div>
     </section>
 
     <section class="our-services">
